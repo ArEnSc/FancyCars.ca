@@ -10,6 +10,11 @@ This requires a paging based API in general, the given API doesn't page, and acc
 
 I wrote a simple mock paging API to send data in pages back, for infinite scrolling.
 
+
+Did create loading indicators:
+Usually an app has loading indicators for paging or infinite scroll in a way.
+Or for loading the initial list
+
 Sorting:
 I am assuming you wanted client side sorting, so I implemented that for the items on the screen current.
 If it does "page" to the next screen, those items would be unsorted.
